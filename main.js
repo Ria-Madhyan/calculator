@@ -14,12 +14,11 @@ const output = document.querySelector('.output')
 // const buttons = document.querySelectorAll('button')
 
 const handleNumber = (val) => {
-  if (output.innertext == 0 ) {
-    output.innerText(val)
+  if (output.innerHTML == 0 ) {
+    output.innerHTML(val)
   }
   else {
     output.innerText += (val)
   }
-
 }
 
