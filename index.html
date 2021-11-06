@@ -13,25 +13,25 @@
       <div class="result"></div>
     </div>
     <!-- <div class="buttons"> -->
-      <button class="grey" id="clear">C</button>
+      <button class="grey" id="clear" onclick="allClear('')">C</button>
       <button class="grey" id="n1">+/-</button>
-      <button class="grey" id="n2">%</button>
-      <button class="operator" id="n3">÷</button>
+      <button class="grey" id="n2" onclick="handleOperation('%')">%</button>
+      <button class="operator" id="n3" onclick="handleOperation('/')">÷</button>
       <button class="number" id="n4" onclick="handleNumber(7)">7</button>
       <button class="number" id="n5" onclick="handleNumber(8)">8</button>
       <button class="number" id="n6" onclick="handleNumber(9)">9</button>
-      <button class="operator" id="n7">x</button>
+      <button class="operator" id="n7" onclick="handleOperation('*')">x</button>
       <button class="number" id="n8" onclick="handleNumber(4)">4</button>
       <button class="number" id="n9" onclick="handleNumber(5)">5</button>
       <button class="number" id="n10" onclick="handleNumber(6)">6</button>
-      <button class="operator" id="n11">-</button>
+      <button class="operator" id="n11" onclick="handleOperation('-')">-</button>
       <button class="number" id="n12" onclick="handleNumber(1)">1</button>
       <button class="number" id="n13" onclick="handleNumber(2)">2</button>
       <button class="number" id="n14" onclick="handleNumber(3)">3</button>
-      <button class="operator" id="n15">+</button>
+      <button class="operator" id="n15" onclick="handleOperation('+')">+</button>
       <button class="number" id="n16" onclick="handleNumber(0)">0</button>
-      <button class="number" id="n17">.</button>
-      <button class="operator--equal" id="n18">=</button>
+      <button class="number" id="n17" onclick="decimal('.')">.</button>
+      <button class="operator--equal" id="n18" onclick="equalsClick('=')">=</button>
     <!-- </div> -->
   </div>
 
